@@ -1,0 +1,825 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "light";
+    src: url(/static/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family:"sb" ;
+    src: url(/static/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family:"bold" ;
+    src: url(/static/Montserrat-SemiBold.ttf);
+}
+body{
+    background-color:#F6F6F6;
+}
+section.homepage{
+    background-image: url(/Banner\ Background.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    /* background-color: rgb(255, 255, 255); */
+    background-size: 46.4% 100%;
+   
+    
+}
+.head{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    gap: 22%;
+    align-items: center;
+    
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    align-items: center;
+}
+.links h4{
+    font-size: 17px;
+    font-family: "light";
+}
+.foodie h2{
+    font-size: 32px;
+    font-family: "sb";
+    color: #FE9E0D;
+    
+}
+
+.links button{
+    background-color: white;
+    padding: 2% 2%;
+    border-radius: 40px;
+    border: none;
+    font-size: 17px;
+    font-family: "light";
+    font-weight: bold;
+    width: 9vw;
+}
+.hp{
+   
+    display: flex;
+    justify-content: center;
+    gap: 0%;
+    align-items: center;
+    padding-left: 15%;
+    padding-right:5%;
+    padding-bottom: 2%;
+
+}
+
+.hptext h1{
+    font-size: 60px;
+    width: 80%;
+    font-family: "bold";
+}
+.hptext h3{
+    font-size: 30px;
+    width: 780px;
+    padding-top: 5%;
+    font-family: "light";
+    padding-bottom: 5%;
+}
+.hptext button{
+    background-color: #FE9E0D;
+    color: white;
+    padding: 30px 60px;
+    border-radius: 40px;
+    border: none;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.hptext button img{
+  padding-left: 20px;
+    
+}
+section.secondpage{
+    background-image: url(/About\ Section\ Background.png);
+    background-repeat: no-repeat;
+    background-position: 0% 70%;
+    /* background-color: azure; */
+    background-size: 15% 87%;
+}
+.sp{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 9% 0%;
+    gap: 30px;
+   padding-right: 25%;
+}
+.spallinfo h2{
+    color: #FE9E0D;
+    font-family: "sb";
+    padding-bottom: 3%;
+}
+.spallinfo h1{
+   font-size: 50px;
+    font-family: "sb";
+    width: 30vw;
+    padding-bottom: 6%;
+}
+.spallinfo h3{
+   font-size: 20px;
+    font-family: "light";
+    width: 28vw;
+    padding-bottom: 5%;
+}
+.btnwv{
+    display: flex;
+    justify-content: left;
+    gap: 80px;
+    align-items: center;
+}
+.wv img{
+    width: 70px;
+}
+.wv h4{
+    font-family: "sb";
+}
+.wv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn button{
+    border: none;
+    background-color: #FE9E0D;
+    color: white;
+    border-radius: 40px;
+    padding: 10% 20%;
+    width: 10vw;
+    font-family: "sb";
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.tp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3000%;
+    padding: 8% 0%;
+}
+
+.tput{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 720px;
+
+}
+.tput h4{
+    color: #FE9E0D;
+    font-family: "sb";
+    font-size: 20px;
+}
+.tput h1{
+  
+    font-family: "sb";
+    font-size: 45px;
+}
+.tput h3{
+  
+    font-family: "light";
+    font-size: 20px;
+    text-align: center;
+   line-height: 30px;
+    
+}
+.tplt{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    gap: 10%;
+
+}
+.tpft, .tptt{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+gap: 10%;
+text-align: center;
+    background-color: white;
+    padding: 5% 3%;
+    border-radius: 20px;
+}
+.tpst{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20%;
+
+text-align: center;
+    background-color: white;
+    padding: 5% 3%;
+    border-radius: 20px;
+}
+
+.tpft h3, .tptt h3{
+ font-family: "sb";
+ padding-top: 10%;  
+ font-size: 25px;
+
+}
+.tpst h3{
+ font-family: "sb";
+ font-size: 25px;
+ 
+
+}
+.tpft h4{
+ font-family: "light";
+ width: 15vw;
+ padding-top: 15%;
+}
+.tpst h4{
+ font-family: "light";
+ width: 15vw;
+ 
+}
+.tptt h4{
+ font-family: "light";
+ width: 15vw;
+ padding-top: 5%;
+}
+.fp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: center;
+    text-align: center;
+    padding: 7% 0%;
+    
+}
+.fpup{
+    padding-bottom: 5%;
+}
+.fpup h4{
+    font-family: "sb";
+}
+.fpup h1{
+    font-family: "bold";
+    font-weight: bold;
+    font-size: 45px;
+    padding-bottom: 2%;
+}
+.fpup h4{
+    font-size: 20px;
+    color: #FE9E0D;
+    padding-bottom: 2%;
+}
+.fpup h3{
+    
+    padding: 0% 28%;
+}
+.fpup h3{
+    font-family: "light";
+}
+
+.fplp{
+    border-radius: 20px;
+    background-color: white;
+    padding: 2% 5%;
+}
+.fplp h3{
+    font-size: 20px;
+    font-family: "light";
+    width: 29vw;
+    padding: 5% 0%;
+}
+.fplp h4{
+    font-family: "sb";
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+.fp{
+    padding: 10% 0%;
+    
+}
+.fput{
+    padding-bottom: 10%;
+}
+.fput h1{
+    font-size: 45px;
+    width: 28vw;
+    font-family: "bold";
+    padding-bottom: 10%;
+}
+
+.ibtn{
+    background-color: white;
+    padding: 3% 10%;
+    border-radius: 50px;
+    align-items: left;
+    
+    
+}
+.ibtn input{
+    padding: 4% 20%;
+    border: none;
+    
+    
+   
+    
+}
+
+.ibtn button{
+    background-color: #FE9E0D;
+    color: white;
+    border-radius: 30px;
+    padding: 3% 9%;
+    border: none;
+    font-size: 15px;
+
+}
+.fplt{
+    display: flex;
+    text-align: left;
+    gap: 10%;
+    justify-content: center;
+    font-family: "light";
+    padding-left: 13%;
+}
+.stc, .ftc{
+    line-height: 40px;
+}
+.tc{
+    width: 55vw;
+    line-height: 40px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+}
+.ffttc{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 950px) {
+    .menu-btn{
+        position: absolute;
+        z-index: 3;
+        right: 35px;
+        top: 35px;
+        cursor: pointer;
+     
+    }
+    .btn-line{
+        width: 28px;
+        height: 3px;
+        margin: 0 0 5px 0;
+        background: white;
+        
+        
+    }
+    section.homepage{
+        background-image: url(/Banner\ Background.png);
+        background-repeat: no-repeat;
+        background-position: 100% 0%;
+        /* background-color: rgb(255, 255, 255); */
+        background-size: 40% 88%;
+       
+        
+    }
+   
+    
+    .links{
+        display: flex;
+        justify-content: space-between;
+        gap: 70px;
+        align-items: center;
+        display: none;
+    }
+    .links h4{
+        font-size: 17px;
+        font-family: "light";
+    }
+    .foodie h2{
+        font-size: 25px;
+        font-family: "sb";
+        color: #FE9E0D;
+        position: absolute;
+        left: 35px;
+        top: 35px;
+        
+    }
+    
+    .links button{
+        background-color: white;
+        padding: 2% 2%;
+        border-radius: 40px;
+        border: none;
+        font-size: 17px;
+        font-family: "light";
+        font-weight: bold;
+        width: 9vw;
+    }
+    .hp{
+       
+        display: flex;
+        flex-direction: column;
+        padding-top: 40%;
+    }
+    .hpimage img{
+      padding-top: 20px;
+      width: 90%;
+      padding-bottom: 20%;
+    }
+    .hptext h1{
+        font-size: 28px;
+        width: 80vw;
+        
+        font-family: "bold";
+    }
+    .hptext h3{
+        font-size: 15px;
+        width: 70vw;
+        /* padding-top: 5%; */
+        font-family: "light";
+        /* padding-bottom: 5%; */
+    }
+    .hptext button{
+        background-color: #FE9E0D;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 40px;
+        border: none;
+        align-items: center;
+        display: flex;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    
+    .hptext button img{
+      padding-left: 10px;
+      width: 25%;
+        
+    }
+
+    section.secondpage{
+        background-image: url(/About\ Section\ Background.png);
+        background-repeat: no-repeat;
+        background-position: 0% 0%;
+        
+        /* background-color: azure; */
+        background-size:40% 47%;
+    }
+    /* SECOND PAGE */
+    .sp{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding: 9% 0%;
+        gap: 30px;
+        
+        padding-bottom: 20%;
+       text-align: center;
+    }
+    .spimage img{
+        width: 80%;
+    }
+    .spallinfo h2{
+        color: #FE9E0D;
+        font-family: "sb";
+        /* padding-bottom: 3%; */
+    }
+    .spallinfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .alltxt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .alltxt h1{
+       font-size: 25px;
+        font-family: "sb";
+        width: 70vw;
+    
+        /* padding-bottom: 6%; */
+    }
+    .alltxt h3{
+       font-size: 15px;
+        font-family: "light";
+        width: 80vw;
+        padding-bottom: 5%;
+    }
+    .btnwv{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .wv img{
+        width: 40px;
+    }
+    .wv h4{
+        font-family: "sb";
+        font-size: 14px;
+        width: 20vw;
+    }
+    .wv{
+        display: flex;
+       gap: 1px;
+    }
+    .btn button{
+        border: none;
+        background-color: #FE9E0D;
+        color: white;
+        border-radius: 40px;
+        padding: 7% 0%;
+        width: 50vw;
+        font-family: "sb";
+        font-weight: bold;
+        font-size: 14px;
+    }
+    /* THIRD PAGE */
+    .tp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3000%;
+        padding: 8% 0%;
+        margin: 20% 0%;
+    }
+    
+    .tput{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 0% 30px;
+    
+    }
+    .tput h4{
+        color: #FE9E0D;
+        font-family: "sb";
+        font-size: 20px;
+    }
+    .tput h1{
+      
+        font-family: "sb";
+        font-size: 35px;
+        text-align: center;
+    }
+    .tput h3{
+      
+        font-family: "light";
+        font-size: 15px;
+        text-align: center;
+       line-height: 25px;
+       width: 80vw;
+        
+    }
+    .tplt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* padding-top: 40%; */
+       
+    
+    }
+     .tptt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    text-align: center;
+        background-color: white;
+        padding: 0% 3%;
+        border-radius: 20px;
+    }
+    .tpft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    text-align: center;
+        background-color: white;
+        padding: 0% 3%;
+        border-radius: 20px;
+    }
+    .tpst{
+        margin: 10% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    
+    text-align: center;
+        background-color: white;
+        padding: 10% 3%;
+        border-radius: 20px;
+    }
+    
+    .tpft h3, .tptt h3{
+     font-family: "sb";
+     padding-top: 7%;  
+     font-size: 20px;
+    
+    }
+    .tpst h3{
+        padding-top: 10%;
+     font-family: "sb";
+     font-size: 20px;
+     
+    
+    }
+    .tpft h4{
+     font-family: "light";
+     width: 60vw;
+     padding-top: 5%;
+     font-size: 13px;
+     padding-bottom: 10%;
+    }
+    .tpst h4{
+     font-family: "light";
+     width: 70vw;
+     font-size: 13px;
+     padding-top: 5%;
+     
+    }
+    .tptt h4{
+     font-family: "light";
+     width: 60vw;
+     padding-top: 5%;
+     font-size: 13px;
+     padding-bottom: 10%;
+    }
+.tpst, .tptt img{
+    padding-top: 10%;
+}
+.tpft img{
+    padding-top: 5%;
+} 
+.fp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: center;
+    text-align: center;
+    padding: 7% 0%;
+    padding-bottom: 15%;
+    
+}
+.fpup{
+
+    padding-bottom: 5%;
+}
+.fpup h4{
+    font-family: "sb";
+}
+.fpup h1{
+    font-family: "bold";
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 2%;
+}
+.fpup h4{
+    font-size: 20px;
+    color: #FE9E0D;
+    padding-bottom: 2%;
+}
+.fpup h3{
+   
+    padding: 0% 10%;
+}
+.fpup h3{
+    font-size: 18px;
+    font-family: "light";
+}
+
+.fplp{
+    border-radius: 20px;
+    background-color: white;
+    padding: 6% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.fplp h3{
+    font-size: 18px;
+    font-family: "light";
+    width: 70vw;
+    padding: 5% 0%;
+}
+.fplp h4{
+    font-family: "sb";
+    font-size: 15px;
+    padding-top: 5%;
+}
+.fp{
+    padding: 10% 0%;
+    
+}
+.fput{
+    padding-bottom: 10%;
+}
+.fput h1{
+    font-size: 25px;
+    width: 80vw;
+    font-family: "bold";
+    padding-bottom: 10%;
+}
+
+.ibtn{
+    background-color: white;
+    padding: 3% 6%;
+    border-radius: 50px;
+   
+    
+    
+}
+.ibtn input{
+    padding: 4% 0%;
+    border: none;
+    
+    
+   
+    
+}
+
+.ibtn button{
+    background-color: #FE9E0D;
+    color: white;
+    border-radius: 30px;
+   
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.fplt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ align-items: center;
+ justify-content: center;
+    font-family: "light";
+    
+}
+.stc, .ftc{
+    line-height: 20px;
+}
+.tc{
+   
+    line-height: 20px;
+}
+.fl{
+   justify-content: left;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+
+}
+.ffttc{
+    display: flex;
+    text-align: left;
+    font-size: 10px;
+    
+}
+.fl h3{
+    font-size: 15px;
+}
+
+}
